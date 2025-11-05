@@ -3,12 +3,14 @@ title: "RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer"
 collection: publications
 category: conferences
 permalink: /publication/2025-rollingq-icml
-excerpt: 'Investigating cooperation dynamics in multimodal transformers to improve cross-modal interaction.'
+excerpt: '<br><b>Authors:</b> Haotian Ni, Yake Wei, <strong>Hang Liu</strong>, Gong Chen, Chong Peng, Hao Lin, Di Hu<br><img src="/images/rollingq.png" width="500">'
 date: 2025-06-08
 venue: 'International Conference on Machine Learning (ICML 2025)'
+header:
+  teaser: "rollingq.png"
 #paperurl: 'https://your-paper-link.com'
 #code: 'https://github.com/your-repo'
-citation: 'Haotian Ni, Yake Wei, **Hang Liu**, Gong Chen, Chong Peng, Hao Lin, Di Hu. &quot;RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer.&quot; <i>ICML 2025</i>.'
+citation: 'Haotian Ni, Yake Wei, <strong>Hang Liu</strong>, Gong Chen, Chong Peng, Hao Lin, Di Hu. &quot;RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer.&quot; <i>ICML 2025</i>.'
 ---
 
 ## RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer
