@@ -1,11 +1,13 @@
 ---
 permalink: /
-title: "Hi there, I'm Hang Liu! 👋"
+title: "Home"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+# Hi there, I'm Hang Liu! 👋
 
 ## About Me
 
