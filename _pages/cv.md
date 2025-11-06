@@ -20,8 +20,13 @@ Research Experience
 ======
 * **Mar 2025 - Present: Research Intern**
   * MAC Lab (Key Laboratory of Multimedia Trusted Perception and Efficient Computing), Xiamen University
-  * Supervisor: Dr. Jiayi Ji (Postdoctoral Researcher) and Prof. Rongrong Ji
+  * Supervisor: Dr. Jiayi Ji and Prof. Rongrong Ji
   * Focus: Multimodal learning, generative models, unified understanding and generation
+
+* **Jun 2025 - Sep 2025: Research Intern**
+  * DeepRoute.ai, Shenzhen, China
+  * Focus: Model development and optimization for autonomous driving systems
+  * Responsibilities: Model R&D, performance optimization, algorithm implementation
   
 * **Sep 2024 - Feb 2025: Research Assistant**
   * Gaoling School of Artificial Intelligence, Renmin University of China
@@ -36,9 +41,8 @@ Publications
 
 Honors & Awards
 ======
-* [Add your awards, scholarships, honors here]
-* Example: Outstanding Student Scholarship, Xiamen University, 2024
-* Example: National Scholarship, 2023
+* **National Scholarship**, Ministry of Education of China, 2025
+* [Add other awards here]
 
 Skills
 ======
