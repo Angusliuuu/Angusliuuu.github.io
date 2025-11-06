@@ -15,7 +15,7 @@ I am a third-year (Class of 2023) undergraduate student at the **Department of A
 
 📬 **Email**: [liuhang1@stu.xmu.edu.cn](mailto:liuhang1@stu.xmu.edu.cn)
 
-I am fortunate to work as a research intern at the [MAC Lab (Key Laboratory of Multimedia Trusted Perception and Efficient Computing)](http://mac.xmu.edu.cn/), Xiamen University, under the supervision of Dr. [Jiayi Ji](https://scholar.google.com/citations?user=xp_rICcAAAAJ&hl=zh-CN) (Postdoctoral Researcher) and Prof. [Rongrong Ji](https://scholar.google.com/citations?user=lRSD7PQAAAAJ&hl=zh-CN). Previously, I worked as a research assistant with Prof. [Di Hu](https://dtaoo.github.io/) at the Gaoling School of Artificial Intelligence, Renmin University of China.
+I am fortunate to work as a research intern at the [MAC Lab (Key Laboratory of Multimedia Trusted Perception and Efficient Computing)](http://mac.xmu.edu.cn/), Xiamen University, under the supervision of Dr. [Jiayi Ji](https://scholar.google.com/citations?user=xp_rICcAAAAJ&hl=zh-CN) and Prof. [Rongrong Ji](https://scholar.google.com/citations?user=lRSD7PQAAAAJ&hl=zh-CN). Previously, I worked as a research assistant with Prof. [Di Hu](https://dtaoo.github.io/) at the Gaoling School of Artificial Intelligence, Renmin University of China.
 
 My research focuses on **multimodal learning** and **generative models**, with a particular interest in exploring the fundamental relationship between **understanding and generation**. I am working towards developing **unified models** that bridge multimodal understanding and generation, investigating how these two capabilities can mutually enhance each other to achieve more general and robust multimodal intelligence.
 
