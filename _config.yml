@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
+site_theme               : "air" # Currently available options are "default", "air"
 title                    : "Hang Liu"
 title_separator          : "-"
 name                     : &name "Hang Liu"
@@ -26,7 +26,7 @@ author:
   avatar           : "angus.JPG"
   name             : "Hang Liu"
   pronouns         : # example: "she/her"  
-  bio              : "Undergraduate Student @ Xiamen University"
+  bio              : "Third-year undergrad @ XMU"
   location         : "Xiamen, China"
   employer         : "Xiamen University"
   uri              : # URL
@@ -78,6 +78,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+  xiaohongshu      : "5f5d7e5000000000010094ca" # Xiaohongshu user ID
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:

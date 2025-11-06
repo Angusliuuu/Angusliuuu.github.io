@@ -21,6 +21,16 @@ My research focuses on **multimodal learning** and **generative models**, with a
 
 💡 *I believe clarity is the key to both research and coding.*
 
+## 📰 News
+
+<div style="height: 250px; overflow-y: auto; border-left: 3px solid #4a90e2; padding-left: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+
+- **[Jun 2025]** 🎉 Our paper <i>RollingQ</i> has been accepted to <strong>ICML 2025</strong>!
+- **[Mar 2025]** 🔬 Started research internship at MAC Lab, Xiamen University, supervised by Dr. Jiayi Ji and Prof. Rongrong Ji
+- **[Sep 2024]** 📚 Joined as Research Assistant at Gaoling School of AI, Renmin University of China, working with Prof. Di Hu
+
+</div>
+
 ## Research Interests
 
 My research interests lie at the intersection of multimodal perception and generation:
