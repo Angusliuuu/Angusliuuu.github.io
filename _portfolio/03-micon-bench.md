@@ -3,6 +3,8 @@ title: "MICON-Bench: Multi-Image Context Benchmark"
 excerpt: "Submitted to CVPR 2026 (Co-first author)<br/><img src='/images/MICON-BENCH.PNG' width='500'>"
 collection: portfolio
 date: 2025-11-15
+header:
+  teaser: "/images/MICON-BENCH.PNG"
 ---
 
 ## MICON-Bench: Benchmarking Multi-Image Context Generation
