@@ -12,8 +12,6 @@ date: 2025-06-08
 ### Overview
 This project investigates the cooperation dynamics between different modalities in multimodal transformers and proposes RollingQ, a novel approach to enhance cross-modal understanding and generation capabilities.
 
-![RollingQ Framework](/images/rollingq.png)
-
 ### Key Contributions
 - Discovered that dynamic adaptability of widely-used self-attention models diminishes during training
 - Identified a self-reinforcing cycle that progressively overemphasizes the favored modality

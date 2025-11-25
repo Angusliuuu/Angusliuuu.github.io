@@ -10,8 +10,6 @@ date: 2025-03-01
 ### Overview
 Development and optimization of autonomous driving algorithms on Huawei Ascend AI platform, focusing on real-time perception and decision-making.
 
-![Huawei Ascend Car](/images/ascend-car.jpg)
-
 ### Project Details
 - **Platform**: Huawei Ascend AI Processor
 - **Focus Areas**: 

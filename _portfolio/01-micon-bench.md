@@ -15,8 +15,6 @@ header:
 ### Overview
 MICON-Bench is the first comprehensive benchmark dedicated to evaluating **multi-image context generation** in unified multimodal models (UMMs). While modern models show impressive single-image capabilities, they struggle to reason consistently across multiple reference images. MICON-Bench introduces six tasks—object composition, spatial composition, attribute disentanglement, component transfer, foreground/background composition, and story generation—to systematically probe these abilities.
 
-![MICON-Bench Tasks](/images/MICON-BENCH.PNG)
-
 ### Key Contributions
 - **Benchmark Design** – Six challenging tasks targeting cross-image composition, contextual reasoning, and identity preservation.
 - **Evaluation-by-Checkpoint** – An MLLM-driven automatic verifier that checks instruction following, identity, structure, and usability.
