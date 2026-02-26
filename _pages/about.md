@@ -25,6 +25,7 @@ My research focuses on **multimodal learning** and **generative models**, with a
 
 ## 📰 News
 
+- **[Feb 2026]** 🎉 Our paper *MICON-Bench* has been accepted to **CVPR 2026**!
 - **[Oct 2025]** 🏆 Awarded **National Scholarship**!
 - **[Jun 2025]** 🎉 Our paper *RollingQ* has been accepted to **ICML 2025**!
 - **[Jun-Sep 2025]** 💼 Interned at DeepRoute.ai, Shenzhen, focusing on model R&D and optimization for autonomous driving
