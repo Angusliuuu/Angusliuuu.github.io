@@ -2,7 +2,7 @@
 title: "BRICS Forum on Partnership on New Industrial Revolution 2025"
 excerpt: "Xiamen, September 2025 - Represented Xiamen University with an invited presentation<br/><img src='/images/brics.JPG' width='500'>"
 collection: gallery
-date: 2025-09-17
+date: 2025-10-17
 location: "Xiamen, China"
 ---
 
