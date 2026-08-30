@@ -12,7 +12,7 @@ site_theme               : "air" # Currently available options are "default", "a
 title                    : "Hang Liu"
 title_separator          : "-"
 name                     : &name "Hang Liu"
-description              : &description "Undergraduate student at Xiamen University, focusing on Multimodal Learning and Generative Models"
+description              : &description "Senior undergraduate at Xiamen University and incoming graduate student at Peking University, focusing on video generation and world models"
 url                      : https://angusliuuu.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "angus.JPG"
   name             : "Hang Liu"
   pronouns         : # example: "she/her"  
-  bio              : "Third-year undergrad @ XMU"
+  bio              : "Senior undergrad @ XMU · Incoming graduate student @ PKU"
   location         : "Xiamen, China"
   employer         : "Xiamen University"
   uri              : # URL
