@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-description: "Hang Liu — Research interests in physical video generation, controllable generation, and world models."
+description: "Hang Liu — Research interests in video generation, world models, and multimodal large language models."
 author_profile: false
 redirect_from:
   - /about/
@@ -15,7 +15,7 @@ redirect_from:
         <img class="home-portrait" src="/images/angus.JPG" alt="Hang Liu by the waterfront at night" fetchpriority="high">
       </div>
       <div class="home-photo-card home-photo-card--second" tabindex="0" aria-label="Show second portrait">
-        <img class="home-portrait" src="/IMG_8036.JPG" alt="Hang Liu by a bridge" fetchpriority="high">
+        <img class="home-portrait" src="/IMG_8036.JPG?v=2" alt="Hang Liu by a bridge" fetchpriority="high">
       </div>
     </div>
     <div class="home-photo-meta">
@@ -36,8 +36,8 @@ redirect_from:
     </p>
     <p class="home-lead home-lead--secondary">
       I am fortunate to work as a research intern at <a href="http://mac.xmu.edu.cn/">Xiamen University MAC Lab</a>,
-      under the supervision of Prof. <a href="https://scholar.google.com/citations?user=xp_rICcAAAAJ&hl=zh-CN">Jiayi Ji</a>
-      and Prof. <a href="https://scholar.google.com/citations?user=lRSD7PQAAAAJ&hl=zh-CN">Rongrong Ji</a>.
+      under the supervision of Prof. <a href="https://iai.xmu.edu.cn/info/2981/5885.htm">Jiayi Ji</a>
+      and Prof. <a href="https://mac.xmu.edu.cn/rrji/">Rongrong Ji</a>.
       Previously, I worked as a research intern with Prof. <a href="https://dtaoo.github.io/">Di Hu</a>
       at the Gaoling School of Artificial Intelligence, Renmin University of China.
     </p>
@@ -98,22 +98,26 @@ redirect_from:
 
   <div class="research-grid">
     <article class="research-card">
-      <span class="research-card__icon"><i class="fas fa-cubes" aria-hidden="true"></i></span>
+      <span class="research-card__icon"><i class="fas fa-film" aria-hidden="true"></i></span>
       <p class="research-card__number">01</p>
-      <h3>Physically Grounded Video Generation</h3>
-      <p>Improving physical plausibility, temporal consistency, and dynamic realism in generated videos.</p>
-    </article>
-    <article class="research-card">
-      <span class="research-card__icon"><i class="fas fa-sliders" aria-hidden="true"></i></span>
-      <p class="research-card__number">02</p>
-      <h3>Controllable Video Generation</h3>
-      <p>Developing precise and flexible control over motion, camera, layout, and interactions.</p>
+      <h3>Video Generation</h3>
+      <p class="research-card__description">Generating realistic videos with stronger physical consistency and precise, flexible control.</p>
+      <div class="research-card__subtopics" aria-label="Video generation topics">
+        <span>Physical</span>
+        <span>Controllable</span>
+      </div>
     </article>
     <article class="research-card">
       <span class="research-card__icon"><i class="fas fa-globe" aria-hidden="true"></i></span>
-      <p class="research-card__number">03</p>
+      <p class="research-card__number">02</p>
       <h3>World Models</h3>
-      <p>Learning predictive representations of the world for simulation, planning, and embodied agents.</p>
+      <p class="research-card__description">Learning predictive representations of the world for simulation, planning, and embodied agents.</p>
+    </article>
+    <article class="research-card">
+      <span class="research-card__icon"><i class="fas fa-brain" aria-hidden="true"></i></span>
+      <p class="research-card__number">03</p>
+      <h3>MLLMs &amp; UMMs</h3>
+      <p class="research-card__description">Exploring multimodal understanding and reasoning, together with unified models that connect perception and generation.</p>
     </article>
   </div>
 </section>

@@ -1,4 +1,22 @@
 (function () {
+  document.querySelectorAll('a[href]').forEach((link) => {
+    let destination;
+
+    try {
+      destination = new URL(link.href, window.location.href);
+    } catch (error) {
+      return;
+    }
+
+    if (!/^https?:$/.test(destination.protocol) || destination.origin === window.location.origin) return;
+
+    link.target = '_blank';
+    const rel = new Set((link.rel || '').split(/\s+/).filter(Boolean));
+    rel.add('noopener');
+    rel.add('noreferrer');
+    link.rel = Array.from(rel).join(' ');
+  });
+
   const sections = document.querySelectorAll('.reveal');
   if (!sections.length) return;
 
