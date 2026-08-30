@@ -10,8 +10,19 @@ redirect_from:
 
 <section class="home-hero" aria-labelledby="home-title">
   <div class="home-portrait-wrap">
-    <img class="home-portrait" src="/images/angus.JPG" alt="Portrait of Hang Liu" fetchpriority="high">
-    <span class="home-status"><span aria-hidden="true"></span> Open to research collaborations</span>
+    <div class="home-photo-stack" aria-label="Portraits of Hang Liu">
+      <div class="home-photo-card home-photo-card--first" tabindex="0" aria-label="Show first portrait">
+        <img class="home-portrait" src="/images/angus.JPG" alt="Hang Liu by the waterfront at night" fetchpriority="high">
+      </div>
+      <div class="home-photo-card home-photo-card--second" tabindex="0" aria-label="Show second portrait">
+        <img class="home-portrait" src="/IMG_8036.JPG" alt="Hang Liu by a bridge" fetchpriority="high">
+      </div>
+    </div>
+    <div class="home-photo-meta">
+      <span class="home-status"><span aria-hidden="true"></span> Open to research collaborations</span>
+      <a href="mailto:liuhang1@stu.xmu.edu.cn">liuhang1@stu.xmu.edu.cn</a>
+      <a href="mailto:angusliuuu@163.com">angusliuuu@163.com</a>
+    </div>
   </div>
 
   <div class="home-intro">
@@ -32,8 +43,6 @@ redirect_from:
     </p>
 
     <div class="home-actions" aria-label="Contact and academic profiles">
-      <a class="home-action home-action--primary" href="mailto:liuhang1@stu.xmu.edu.cn"><i class="fas fa-envelope" aria-hidden="true"></i> XMU Email</a>
-      <a class="home-action" href="mailto:angusliuuu@163.com"><i class="fas fa-envelope" aria-hidden="true"></i> 163 Email</a>
       <a class="home-action" href="https://scholar.google.com/citations?hl=zh-CN&user=-CrDMNwAAAAJ"><i class="ai ai-google-scholar" aria-hidden="true"></i> Scholar</a>
       <a class="home-action" href="https://github.com/Angusliuuu"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
       <a class="home-action" href="https://www.xiaohongshu.com/user/profile/5f5d7e5000000000010094ca"><i class="fas fa-book" aria-hidden="true"></i> RedNote</a>

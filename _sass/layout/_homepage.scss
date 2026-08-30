@@ -117,28 +117,77 @@ html[data-theme="dark"] .masthead { background: rgba(17, 24, 39, 0.82); }
 
 .home-portrait-wrap { align-self: start; }
 
+.home-photo-stack {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  isolation: isolate;
+}
+
+.home-photo-card {
+  position: absolute;
+  inset: 0.35rem;
+  overflow: hidden;
+  border-radius: 24px;
+  box-shadow: 0 20px 38px rgba(27, 43, 48, 0.18);
+  cursor: pointer;
+  outline: none;
+  transition: transform 360ms cubic-bezier(0.2, 0.7, 0.2, 1), box-shadow 360ms ease, filter 360ms ease;
+}
+
+.home-photo-card--first {
+  z-index: 2;
+  transform: translate(-0.45rem, 0.45rem) rotate(-3.5deg);
+}
+
+.home-photo-card--second {
+  z-index: 1;
+  transform: translate(0.55rem, -0.35rem) rotate(4deg);
+}
+
+.home-photo-card:hover,
+.home-photo-card:focus {
+  z-index: 5;
+  transform: translateY(-0.45rem) rotate(0) scale(1.035);
+  box-shadow: 0 26px 48px rgba(27, 43, 48, 0.24);
+}
+
+.home-photo-card:focus-visible { box-shadow: 0 0 0 3px var(--home-accent), 0 26px 48px rgba(27, 43, 48, 0.24); }
+
 .home-portrait {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  height: 100%;
   object-fit: cover;
-  border-radius: 24px;
-  filter: saturate(0.92) contrast(1.02);
-  box-shadow: 0 20px 38px rgba(27, 43, 48, 0.18);
-  transition: transform 350ms ease, box-shadow 350ms ease, filter 350ms ease;
+  filter: saturate(0.94) contrast(1.02);
+  transition: filter 350ms ease, transform 500ms ease;
 }
 
-.home-portrait-wrap:hover .home-portrait {
-  transform: translateY(-5px) rotate(-0.8deg);
-  filter: saturate(1.02) contrast(1.02);
-  box-shadow: 0 26px 48px rgba(27, 43, 48, 0.24);
+.home-photo-card--second .home-portrait { object-position: 50% 66%; }
+.home-photo-card:hover .home-portrait,
+.home-photo-card:focus .home-portrait { filter: saturate(1.04) contrast(1.02); transform: scale(1.02); }
+
+.home-photo-meta {
+  display: grid;
+  gap: 0.34rem;
+  margin-top: 1.15rem;
 }
+
+.home-photo-meta a {
+  color: var(--home-muted);
+  font-size: 0.61rem;
+  font-weight: 600;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.home-photo-meta a:hover { color: var(--home-accent-strong); }
 
 .home-status {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  margin-top: 1rem;
+  margin: 0 0 0.2rem;
   color: var(--home-muted);
   font-size: 0.73rem;
   font-weight: 650;
@@ -219,7 +268,7 @@ html[data-theme="dark"] .affiliation { background: rgba(255, 255, 255, 0.035); }
 .affiliation strong { font-size: 0.76rem; line-height: 1.3; }
 .affiliation small { margin-top: 0.12rem; color: var(--home-muted); font-size: 0.63rem; line-height: 1.35; }
 
-.home-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+.home-actions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.5rem; margin-top: 1rem; }
 
 .home-action {
   display: inline-flex;
@@ -232,6 +281,7 @@ html[data-theme="dark"] .affiliation { background: rgba(255, 255, 255, 0.035); }
   background: var(--home-surface-solid);
   font-size: 0.8rem;
   font-weight: 650;
+  justify-content: center;
 }
 
 .home-action:hover { transform: translateY(-2px); border-color: var(--home-accent); }
@@ -576,8 +626,8 @@ html[data-theme="dark"] .affiliation-panel { background: linear-gradient(145deg,
   .home-page { width: min(100% - 1.2rem, 680px); padding-top: 1rem; }
   .home-hero { grid-template-columns: 1fr; gap: 1.7rem; min-height: 0; padding: 1.35rem; border-radius: 20px; }
   .home-portrait-wrap { display: grid; grid-template-columns: 118px 1fr; gap: 1rem; align-items: end; }
-  .home-portrait { border-radius: 17px; }
-  .home-status { align-self: end; margin-bottom: 0.4rem; }
+  .home-photo-card { border-radius: 17px; }
+  .home-photo-meta { align-self: end; margin-top: 0; }
   .home-intro h1 { font-size: 2.75rem; }
   .affiliation-panel { display: block; grid-column: auto; padding: 1rem; }
   .affiliation-panel .affiliation + .affiliation { margin-top: 0.55rem; }
@@ -612,7 +662,7 @@ html[data-theme="dark"] .affiliation-panel { background: linear-gradient(145deg,
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .home-hero, .reveal, .home-portrait, .research-card, .publication-card, .publication-card__visual img {
+  .home-hero, .reveal, .home-photo-card, .home-portrait, .research-card, .publication-card, .publication-card__visual img {
     animation: none !important;
     transition: none !important;
     transform: none !important;
