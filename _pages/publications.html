@@ -2,11 +2,13 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
+kicker: "Research / Publications"
+description: "Selected research on multimodal learning, generative models, and video generation."
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="archive-profile-link">You can also find my work on <a href="{{site.author.googlescholar}}">Google Scholar <span aria-hidden="true">↗</span></a>.</div>
 {% endif %}
 
 {% include base_path %}
@@ -31,6 +33,5 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
 
 

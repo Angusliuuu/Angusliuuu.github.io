@@ -12,13 +12,17 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
+<div id="main" class="modern-archive-page" role="main">
   {% include sidebar.html %}
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
+      <header class="archive-hero">
+        <p class="archive-hero__eyebrow">{{ page.kicker | default: "Hang Liu / Archive" }}</p>
+        <h1 class="page__title">{{ page.title }}</h1>
+        {% if page.description %}<p class="archive-hero__description">{{ page.description }}</p>{% endif %}
+      </header>
     {% endunless %}
-    {{ content }}
+    <div class="archive-content">{{ content }}</div>
   </div>
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-description: "Hang Liu — Video generation researcher focusing on physical consistency, controllable generation, and world models."
+description: "Hang Liu — Research interests in physical video generation, controllable generation, and world models."
 author_profile: false
 redirect_from:
   - /about/
@@ -17,64 +17,58 @@ redirect_from:
   <div class="home-intro">
     <p class="home-eyebrow">Hello, I'm</p>
     <h1 id="home-title">Hang Liu</h1>
-    <p class="home-role">Video Generation Researcher <span aria-hidden="true">·</span> Senior Undergraduate</p>
 
     <p class="home-lead">
       I am a fourth-year undergraduate in Artificial Intelligence at <strong>Xiamen University</strong>.
       In Fall 2027, I will join <strong>Peking University</strong> as a graduate student, advised by
       Prof. <a href="https://yuanli2333.github.io/">Li Yuan</a>.
     </p>
-
-    <div class="home-affiliations" aria-label="Academic affiliations">
-      <div class="affiliation affiliation--xmu">
-        <span class="affiliation__mark" aria-hidden="true">XMU</span>
-        <span><strong>Xiamen University</strong><small>Undergraduate in Artificial Intelligence · 2023–2027</small></span>
-      </div>
-      <div class="affiliation affiliation--pku">
-        <span class="affiliation__mark" aria-hidden="true">PKU</span>
-        <span><strong>Peking University</strong><small>Incoming Graduate Student · Fall 2027</small></span>
-      </div>
-    </div>
+    <p class="home-lead home-lead--secondary">
+      I am fortunate to work as a research intern at <a href="http://mac.xmu.edu.cn/">Xiamen University MAC Lab</a>,
+      under the supervision of Prof. <a href="https://scholar.google.com/citations?user=xp_rICcAAAAJ&hl=zh-CN">Jiayi Ji</a>
+      and Prof. <a href="https://scholar.google.com/citations?user=lRSD7PQAAAAJ&hl=zh-CN">Rongrong Ji</a>.
+      Previously, I worked as a research intern with Prof. <a href="https://dtaoo.github.io/">Di Hu</a>
+      at the Gaoling School of Artificial Intelligence, Renmin University of China.
+    </p>
 
     <div class="home-actions" aria-label="Contact and academic profiles">
-      <a class="home-action home-action--primary" href="mailto:liuhang1@stu.xmu.edu.cn"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
+      <a class="home-action home-action--primary" href="mailto:liuhang1@stu.xmu.edu.cn"><i class="fas fa-envelope" aria-hidden="true"></i> XMU Email</a>
+      <a class="home-action" href="mailto:angusliuuu@163.com"><i class="fas fa-envelope" aria-hidden="true"></i> 163 Email</a>
       <a class="home-action" href="https://scholar.google.com/citations?hl=zh-CN&user=-CrDMNwAAAAJ"><i class="ai ai-google-scholar" aria-hidden="true"></i> Scholar</a>
       <a class="home-action" href="https://github.com/Angusliuuu"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+      <a class="home-action" href="https://www.xiaohongshu.com/user/profile/5f5d7e5000000000010094ca"><i class="fas fa-book" aria-hidden="true"></i> RedNote</a>
     </div>
   </div>
 
-  <aside class="focus-panel" aria-label="Current research focus">
-    <p class="focus-panel__label">Current Focus</p>
-    <h2>VideoGen</h2>
-    <p>Learning to generate videos that respect the world—and respond to our intent.</p>
-    <ul>
-      <li><span aria-hidden="true">01</span> Physical Consistency</li>
-      <li><span aria-hidden="true">02</span> Controllable Generation</li>
-      <li><span aria-hidden="true">03</span> World Models</li>
-    </ul>
+  <aside class="affiliation-panel" aria-label="Education and research experience">
+    <p class="affiliation-panel__label">Education &amp; Experience</p>
+    <div class="affiliation affiliation--xmu">
+      <img class="affiliation__logo" src="/xmu.jpg" alt="Xiamen University logo">
+      <span><strong>Xiamen University</strong><small>Undergraduate in Artificial Intelligence · 2023–2027</small></span>
+    </div>
+    <div class="affiliation affiliation--ruc">
+      <img class="affiliation__logo" src="/ruc.jpg" alt="Renmin University of China logo">
+      <span><strong>Renmin University of China</strong><small>Research Intern, Gewu Lab · Dec 2024</small></span>
+    </div>
+    <div class="affiliation affiliation--pku">
+      <img class="affiliation__logo" src="/pku.jpg" alt="Peking University logo">
+      <span><strong>Peking University</strong><small>Incoming Graduate Student · Fall 2027</small></span>
+    </div>
   </aside>
 </section>
 
-<section class="home-section reveal" id="about">
+<section class="home-section reveal" id="news">
   <div class="section-heading">
-    <p>01 / About</p>
-    <h2>Building models that understand before they generate.</h2>
+    <p>01 / Updates</p>
+    <h2>Latest News</h2>
   </div>
-  <div class="section-body home-about-copy">
-    <p>
-      I am fortunate to work as a research intern at the
-      <a href="http://mac.xmu.edu.cn/">MAC Lab</a>, Xiamen University, under the supervision of
-      Prof. <a href="https://scholar.google.com/citations?user=xp_rICcAAAAJ&hl=zh-CN">Jiayi Ji</a>
-      and Prof. <a href="https://scholar.google.com/citations?user=lRSD7PQAAAAJ&hl=zh-CN">Rongrong Ji</a>.
-      Previously, I worked as a research assistant with Prof. <a href="https://dtaoo.github.io/">Di Hu</a>
-      at Renmin University of China.
-    </p>
-    <p>
-      My research lies at the intersection of <strong>multimodal learning</strong> and
-      <strong>generative models</strong>. I am interested in how understanding and generation can
-      reinforce each other to produce more general, robust, and physically grounded intelligence.
-    </p>
-    <blockquote>Clarity is the key to both research and coding.</blockquote>
+  <div class="section-body news-list">
+    <div class="news-item"><time datetime="2026-02">Feb 2026</time><p>Our paper <em>MICON-Bench</em> was accepted to <strong>CVPR 2026</strong>.</p></div>
+    <div class="news-item"><time datetime="2025-10">Oct 2025</time><p>Awarded the <strong>National Scholarship</strong>.</p></div>
+    <div class="news-item"><time datetime="2025-06">Jun 2025</time><p>Our paper <em>RollingQ</em> was accepted to <strong>ICML 2025</strong>.</p></div>
+    <div class="news-item"><time datetime="2025-06">Jun–Sep 2025</time><p>Research internship at <strong>DeepRoute.ai</strong>, working on model R&amp;D and optimization for autonomous driving.</p></div>
+    <div class="news-item"><time datetime="2025-03">Mar 2025</time><p>Joined <strong>Xiamen University MAC Lab</strong> as a research intern.</p></div>
+    <div class="news-item"><time datetime="2024-12">Dec 2024</time><p>Joined <strong>Gewu Lab</strong> at the Gaoling School of Artificial Intelligence, Renmin University of China, as a research intern.</p></div>
   </div>
 </section>
 
@@ -86,6 +80,12 @@ redirect_from:
     </div>
     <span class="section-note">Video generation as a path toward world understanding</span>
   </div>
+
+  <p class="research-intro">
+    My research lies at the intersection of <strong>multimodal learning</strong> and <strong>generative models</strong>.
+    I am interested in how understanding and generation can reinforce each other to produce more general,
+    robust, and physically grounded intelligence.
+  </p>
 
   <div class="research-grid">
     <article class="research-card">
@@ -151,22 +151,11 @@ redirect_from:
   </div>
 </section>
 
-<section class="home-section reveal" id="news">
-  <div class="section-heading">
-    <p>04 / Updates</p>
-    <h2>Latest News</h2>
-  </div>
-  <div class="section-body news-list">
-    <div class="news-item"><time datetime="2026-02">Feb 2026</time><p>Our paper <em>MICON-Bench</em> was accepted to <strong>CVPR 2026</strong>.</p></div>
-    <div class="news-item"><time datetime="2025-10">Oct 2025</time><p>Awarded the <strong>National Scholarship</strong>.</p></div>
-    <div class="news-item"><time datetime="2025-06">Jun 2025</time><p>Our paper <em>RollingQ</em> was accepted to <strong>ICML 2025</strong>.</p></div>
-    <div class="news-item"><time datetime="2025-06">Jun–Sep 2025</time><p>Research internship at <strong>DeepRoute.ai</strong>, working on model R&amp;D and optimization for autonomous driving.</p></div>
-    <div class="news-item"><time datetime="2025-03">Mar 2025</time><p>Joined <strong>MAC Lab</strong> as a research intern.</p></div>
-  </div>
-</section>
-
 <section class="home-contact reveal" aria-labelledby="contact-title">
   <p>Let's connect</p>
   <h2 id="contact-title">Interested in research collaboration or a good discussion?</h2>
-  <a href="mailto:liuhang1@stu.xmu.edu.cn">liuhang1@stu.xmu.edu.cn <span aria-hidden="true">↗</span></a>
+  <div class="home-contact__emails">
+    <a href="mailto:liuhang1@stu.xmu.edu.cn">liuhang1@stu.xmu.edu.cn <span aria-hidden="true">↗</span></a>
+    <a href="mailto:angusliuuu@163.com">angusliuuu@163.com <span aria-hidden="true">↗</span></a>
+  </div>
 </section>

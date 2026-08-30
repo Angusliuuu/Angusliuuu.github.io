@@ -2,14 +2,18 @@
 layout: archive
 title: "Gallery"
 permalink: /gallery/
-author_profile: true
+author_profile: false
+kicker: "Life / Moments"
+description: "A collection of moments from academic conferences, workshops, and activities."
 ---
 
 {% include base_path %}
 
-<p>A collection of moments from academic conferences, workshops, and activities.</p>
-
-{% for post in site.gallery reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<div class="photo-grid">
+  <figure class="photo-card photo-card--wide"><img src="/images/VALSE.JPG" alt="At the VALSE conference" loading="lazy"><figcaption>VALSE</figcaption></figure>
+  <figure class="photo-card"><img src="/images/valse_1.JPG" alt="Academic conference moment" loading="lazy"><figcaption>Conference</figcaption></figure>
+  <figure class="photo-card"><img src="/images/valse_2.JPG" alt="Workshop moment" loading="lazy"><figcaption>Workshop</figcaption></figure>
+  <figure class="photo-card"><img src="/images/brics.JPG" alt="At the BRICS event" loading="lazy"><figcaption>BRICS</figcaption></figure>
+  <figure class="photo-card photo-card--wide"><img src="/images/brics_1.JPG" alt="BRICS academic activity" loading="lazy"><figcaption>Academic Activity</figcaption></figure>
+  <figure class="photo-card"><img src="/images/valse_3.JPG" alt="Conference gathering" loading="lazy"><figcaption>Gathering</figcaption></figure>
+</div>

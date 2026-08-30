@@ -3,6 +3,8 @@ title: "Huawei Ascend Autonomous Vehicle Development"
 excerpt: "Autonomous vehicle development using Huawei Ascend AI platform<br/><img src='/images/ascend-car.jpg' width='500' style='object-fit: cover;'>"
 collection: portfolio
 date: 2025-03-01
+header:
+  teaser: "ascend-car.jpg"
 ---
 
 ## Huawei Ascend Autonomous Vehicle Development
@@ -30,4 +32,3 @@ Development and optimization of autonomous driving algorithms on Huawei Ascend A
 ### Links
 - 💻 [Code Repository](#) (Coming soon)
 - 📹 [Demo Video](#) (Coming soon)
-

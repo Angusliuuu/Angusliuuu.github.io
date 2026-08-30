@@ -3,6 +3,8 @@ title: "RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer"
 excerpt: "ICML 2025 - Investigating cooperation dynamics in multimodal transformers<br/><img src='/images/rollingq.png' width='500'>"
 collection: portfolio
 date: 2025-06-08
+header:
+  teaser: "rollingq.png"
 ---
 
 ## RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer
@@ -28,4 +30,3 @@ Haotian Ni, Yake Wei, **Hang Liu**, Gong Chen, Chong Peng, Hao Lin, Di Hu
 
 ### Publication
 Accepted to **International Conference on Machine Learning (ICML), 2025**
-
